@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Boutique Expedition Ships",
-  description: "Sail aboard purpose-built expedition vessels that combine Scandinavian design, cutting-edge technology, and private verandas in most suites.",
+  title: "Cultural Expedition Cruises",
+  description: "Blends exploration with lectures, archaeology, and deep cultural insight.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Cultural & Scientific Enrichment",
-  description: "Led by expert lecturers, historians, and naturalists, each voyage offers deeper insights into the places you visit.",
+  title: "Boutique Luxury Ships",
+  description: "Stylish polar-class ships offer spacious staterooms and refined ambiance.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "All-Inclusive Expedition Comfort",
-  description: "Enjoy open bars, fine dining, gratuities, Wi-Fi, and shore excursions—all included in the fare.",
+  title: "Academic Enrichment",
+  description: "Lectures led by scientists, historians, and renowned guest speakers.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Remote & Rare Destinations",
-  description: "Venture to the Arctic, Antarctica, the Amazon, West Africa, and beyond—places where few ships go.",
+  title: "Polar & Tropical Voyages",
+  description: "Sails to both ends of the Earth—and everywhere in between.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Swan Hellenic Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
